@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Barlow", sans-serif;
+    background-image: url("../img/fondo.png");
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+    background-color: rgba(255,255,255,0.3);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.fondoletras{
+   background-color: rgba(225, 79, 244);
+}
+
+.titulos{
+    color: rgb(97, 3, 141);
+}
+img{
+    padding: 15px;
+    background-color: rgb(97, 3, 141);
+    border-width: 2px;
+    border-style: solid;
+}
+
